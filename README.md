@@ -1,6 +1,8 @@
 # a034_nc_chickadee
 Ventilator Simulator Platform Synthesized From Published Mechanical Ventilator Design Literature Via FreeCAD Opensource CNC Machine Technology Using Arduino Boards/Shields
 
+See: http://abbottanp.com/ for project engineering details.
+
 While stuck in "lock-down" this project evolved and matured.  
 
 
