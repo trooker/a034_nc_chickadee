@@ -28,10 +28,10 @@ The working assumptions are:
 
 
 Reference:
-MIT Project. CopyPaste URL**: https://web.mit.edu/2.75/projects/DMD_2010_Al_Husseini.pdf
-Theory of Operation. CopyPaste URL**: https://my.clevelandclinic.org/-/scassets/files/org/respiratory/fundamentals-of-mechanical-ventilation.ashx?la=en
-Excellent Introduction Class.CopyPaste URL**: https://www.k-space.org/Class_Info/EE497/KAU_Ventilator_lec.pdf
-Note: ** Some browsers do not allow links to these sites from their anchors. 
+++ MIT Student Project: https://web.mit.edu/2.75/projects/DMD_2010_Al_Husseini.pdf
+++ Theory of Operation: https://my.clevelandclinic.org/-/scassets/files/org/respiratory/fundamentals-of-mechanical-ventilation.ashx?la=en
+++ Excellent Introduction Class: https://www.k-space.org/Class_Info/EE497/KAU_Ventilator_lec.pdf
+
 
 
 Status:
