@@ -1,0 +1,45 @@
+%
+;Author: afgxn nsh
+;Author-Email: nowat@here.com
+;Author-Telephone: 392-984-9903
+;Subject: klhhl jupo
+;NOTE: Hello cowboy
+;Weight kg: 68.0388
+;Tidal Volume mL==: 136.0776
+; Based on 102.01_10_037_985_chickadee.ngc
+; Copyright © 1988-2020 by Abbott Analytical Products. All Rights Reserved.
+; gcode for a034_nc_chickadee ventilator simulator
+; 200514_tr tested at heighs/X values from spreadsheet.
+;     14q     drop dev comments
+G90
+G20
+(MSG, Cycle starts.)
+G0 G93 G53 B90.00000  
+(MSG, 1. Expiration Closed)
+(MSG, 2. Inspiration Openned by Default)
+(MSG, 3. Set for Pull Stroke)
+G0 G93 G53 B0.00000       
+(MSG, 4. Expiration Openned)
+G1 G93 G53 A90.00000 
+(MSG, 5. Inspiration Closed)
+(MSG, 6. Pull Stroke ready to start)
+(MSG, 7. Start Pull X0 to X-10)
+G1 X-4.100 Y0.0000 
+(MSG, 8. Pull Stroke completed)
+(MSG, 9. Set for Push Stroke)
+G0 G93 G53 B90.00000        
+(MSG, 10. Expiration Closed)
+G1 G93 G53 A0.00000 
+(MSG, 11. Inspiration Openned) 
+(MSG, 12. Push Stroke ready to start)
+(MSG, 13. Start Push X-10 to X0)
+G1 X0.0000 Y0  
+(MSG, 14. Push Stroke completed)
+(MSG, 15. Start prep for cycle-complete)
+G0 G93 G53 B0.00000  
+(MSG, 16. Expiration Openned)
+G1 G93 G53 A90.00000 ;F20000
+(MSG, 17. Inspiration Closed)
+G00 B0            
+G00 G53 X0 Y0 A0   
+%
